@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title> HOMEWORK DOM</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+      <header>
+        <div class="container text-center">HOMEWORK DOM</div>
+      </header>
+      <section>
+        <div class="container">
+            <div>
+                <p>Bài 1:</p>
+                <h2>Tính tiền lương nhân viên: </h2>
+            </div>
+            <div>
+                <p>Số ngày công: </p>
+                <input id="day" type="text" placeholder="Nhập số ngày làm..."/>
+            </div>
+            <div>
+                <p>Số tiền 1 ngày công:</p> 
+                <input id="salary" type="text"  placeholder="Nhập số tiền.." >
+                
+            </div>
+            <div class="py-4">
+                <button id="money" class="btn btn-info">Tính ngày lương</button>
+
+            </div>
+            <div class="bg-success font-weight-bolder py-2">
+              <i class="fa-regular fa-hand-point-right fa-2x"></i>
+              <span id="totalSalary"></span>
+
+            </div>
+            
+        </div>
+      </section>
+      <hr noshade=" solid"/>
+
+      <section>
+        <div class="container">
+          <div>
+            <p>Bài 2:</p>
+            <h2>Tính giá trị trung bình: </h2>
+        </div>
+        <div >
+          <input id="number1" type="text" placeholder="Nhập số thứ 1">
+          <input id="number2" type="text" placeholder="Nhập số thứ 2">
+          <input id="number3" type="text" placeholder="Nhập số thứ 3">
+          <input id="number4" type="text" placeholder="Nhập số thứ 4">
+          <input id="number5" type="text" placeholder="Nhập số thứ 5">
+        </div>
+        <div class="py-4">
+          <button id="btnAverage" class="btn btn-info">Giá trị trung bình</button>
+
+      </div>
+      <div class="bg-primary font-weight-bolder py-2">
+        <i class="fa-regular fa-hand-point-right fa-2x"></i>
+        <span id="average"></span>
+
+      </div>
+
+          
+        </div>
+      </section>
+      <hr noshade="solid"/>
+      <section>
+        <div class="container">
+          <div>
+            <p>Bài 3:</p>
+            <h2>Quy đổi tiền: </h2>
+          </div>
+          <div>
+            <h6>Tỷ giá dollar 1$=23.500vnđ</h6>
+            <input id="number6" type="text" placeholder="Nhập số tiền cần đổi...">
+          </div>
+          <div class="py-4">
+            <button id="btnDolar" class="btn btn-info">Quy đổi tiền</button>
+  
+        </div>
+          <div class="bg-warning font-weight-bolder py-2" >
+            <i class="fa-regular fa-hand-point-right fa-2x"></i>
+            <span id="exchange"></span>
+  
+          </div>
+  
+        </div>
+      </section> 
+      <hr noshade="solid"/>
+      <section>
+        <div class="container">
+          <div>
+            <p>Bài 4:</p>
+            <h2>Tính chu vi và diện tích hình chữ nhật: </h2>
+          </div>
+          <div>
+            <input id="number7" type="text" placeholder="Nhập số đo chiều dài.."/>
+            <input id="number8" type="text" placeholder="Nhập số đo chiều rộng.."/>
+          </div>
+          <div class="py-4">
+            <button id="btnCalc" class="btn btn-info">Tính</button>
+        </div>
+        <div class="bg-secondary font-weight-bolder py-2">
+            <i class="fa-regular fa-hand-point-right fa-2x"></i>
+            <span id="KQ"></span>
+        </div>
+        </div>
+      </section>
+      <hr noshade="solid"/>
+      <section>
+        <div class="container">
+          <div>
+            <p>Bài 5:</p>
+            <h2>Tính tổng 2 ký số: </h2>
+          </div>
+          <div>
+            <input id="number9" type="text" placeholder="Nhập số có 2 chữ số...">
+          </div>
+          <div class="py-4">
+            <button id="btnTotal" class="btn btn-info">Tổng</button>
+        </div>
+          <div class="bg-danger font-weight-bolder py-2">
+            <i class="fa-regular fa-hand-point-right fa-2x"></i>
+            <span id="tong"></span>
+        </div>
+        </div>
+      </section>
+
+
+
+
+      
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
